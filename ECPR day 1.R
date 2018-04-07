@@ -16,7 +16,7 @@ toInstall<-c("lmtest","sandwich","car","nlme","orcutt",
 if(doInstall){install.packages(toInstall, repos = "http://cran.r-project.org")}
 
 
-# package ‘FinTS’ is not available (for R version 3.4.1)
+# package â€˜FinTSâ€™ is not available (for R version 3.4.1)
 
 ###################################################################
 #
@@ -401,24 +401,3 @@ fit_ac<- lm(y~x, data=ac_errors)
 summary(fit_ac)
 
 coeftest(fit_ac, vcov = NeweyWest) # Newey-West standard errors
-
-#-------------------------
-# ??????????????????????
-#-------------------------
-
-# exogenity
-
-lag_y <- dplyr::lag(y,1) 
-
-data <- data.frame(ac_errors,cbind(lag_y,resid))
-cor(data$lag_y,data$resid, use="complete.obs")
-
-# ---
-fit_ac<- lm(y~x+lag_y, data=data)
-resid <- residuals(fit_ac)
-
-# (H0) is that there is no correlation among residuals
-Box.test(resid, lag = 1, type = "Ljung-Box", fitdf = 0) 
-Box.test(resid, lag = 1, type = "Box-Pierce", fitdf = 0)
-
-cor(cbind(na.omit(data$lag_y),resid), use="complete.obs")

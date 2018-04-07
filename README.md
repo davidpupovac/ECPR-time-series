@@ -1,1 +1,1 @@
-# ECPR-time-series
+# ECPR winter/summer school -- Time series analysis

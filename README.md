@@ -1,5 +1,14 @@
 # ECPR winter/summer school -- Time series analysis
 
+|        | Topics       |                                    |     
+| ------ | ------------ | ---------------------------------------|
+| Day 1  | Introduction to time series analysis: Newey-West estimator, transformation, GLS|90min lecture, 90min lab |
+| Day 2  | Univariate time series: smoothers and ARMA | 90min lecture, 90min lab |
+| Day 3  | Univariate time series: ARIMA | 90min lecture, 90min lab |
+| Day 4  | Extensions of ARIMA: ARIMAX, SARIMA, simultaneous equations models| 90min lecture, 90min lab |
+| Day 5  | Vvector autoregressive (VAR) models and vector error correction model | 90min lecture, 90min lab |
+
+
 ## Long Course Outline
 
 The contemporary forms of data collection enable unprecedented access to data gathered over time. This type of data may encompass both fast changing series collected over short spans of time (such as stock prices) and slow changing series collected across extended periods (such as the variation in quality of government over time). Consequently, the methods of analysing time series are applicable to a wide range of research questions and travel across disciplinary boundaries.

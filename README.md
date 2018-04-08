@@ -1,5 +1,7 @@
 # ECPR winter/summer school -- Time series analysis
 
+## Schedule
+
 |        | Topics       |                                    |     
 | ------ | ------------ | ---------------------------------------|
 | Day 1  | Introduction to time series analysis: Newey-West estimator, transformation, GLS|90min lecture, 90min lab |

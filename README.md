@@ -1,4 +1,4 @@
-# ECPR winter/summer school -- Time series analysis
+# ECPR winter/summer schools -- Time series analysis
 
 ## Schedule
 

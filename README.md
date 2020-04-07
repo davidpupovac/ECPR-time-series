@@ -8,7 +8,7 @@
 | Day 2  | Univariate time series: smoothers and ARMA | 90min lecture, 90min lab |
 | Day 3  | Univariate time series: ARIMA | 90min lecture, 90min lab |
 | Day 4  | Extensions of ARIMA: ARIMAX, SARIMA, simultaneous equations models| 90min lecture, 90min lab |
-| Day 5  | Vvector autoregressive (VAR) models and vector error correction model | 90min lecture, 90min lab |
+| Day 5  | Vector autoregressive (VAR) models and vector error correction model | 90min lecture, 90min lab |
 
 
 ## Long Course Outline
